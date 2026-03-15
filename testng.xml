@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="Browser" value="Firefox"  />
+  <parameter name="URL" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"   />
+  <parameter name="firstname" value="Alekhya"/>
+  <parameter name="lastname" value="Katakam"/>
+  <parameter name="postalcode" value="123456"/>
+  
+  	  
+    <classes>
+      <class name="org.Execution.TestScript_Banking"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
