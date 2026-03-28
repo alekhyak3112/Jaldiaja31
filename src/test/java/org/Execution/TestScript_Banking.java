@@ -14,6 +14,8 @@ public class TestScript_Banking extends SeleniumBase{
 	@Test
 	public void main(String Browsertype, String URL, String Firstname, String Lastname, String PostalCode) throws InterruptedException {
 		
+		System.out.println("Hello");
+		
 	getBrowser(Browsertype);
 	getApplication(URL);
 	
